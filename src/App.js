@@ -1,12 +1,10 @@
 import './App.css';
-import {Button} from 'react-bootstrap';
+import ToDo from './Home';
 
 function App() {
   return (
     <div className="App">
-      <h1>E-commmerce Project</h1>
-      <button>normal button</button>
-      <Button> button</Button>
+      < ToDo />
     </div>
   );
 }
