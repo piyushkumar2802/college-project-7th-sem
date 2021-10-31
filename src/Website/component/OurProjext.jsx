@@ -3,7 +3,7 @@ import Project from './Style/Our-project'
 
 export default function OurProjext() {
     return (
-            <fragments className="project">
+            <div className="project">
                 <Project />
             <h1 className="project-heading app-had">Our <span className="project-span">Projects</span> </h1>
             <p className="project-para app-had">With agile project management methodology, well-aligned process and seamless communication, we are able to deliver projects of varying complexities.</p>
@@ -19,6 +19,6 @@ export default function OurProjext() {
                 <li>appbiz</li>
                 <li>buddy</li>
             </ul>
-        </fragments>
+        </div>
     )
 }

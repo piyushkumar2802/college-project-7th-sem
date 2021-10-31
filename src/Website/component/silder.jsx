@@ -5,9 +5,9 @@ import 'bootstrap/dist/js/bootstrap';
 export default class silder extends Component {
     render() {
         return (
-            <fragments>
+            <div>
                 slider
-            </fragments>
+            </div>
         )
     }
 }

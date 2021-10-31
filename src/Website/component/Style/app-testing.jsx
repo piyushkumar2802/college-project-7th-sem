@@ -38,8 +38,8 @@ const Testing = createGlobalStyle`
 // <------------ SEO/ SMO and Paid Marketing -------------------->
 .seo_mark{
     width:100%;
-    height:40vh;
-    padding-top:30px;
+    padding-top:2%;
+    padding-bottom: 2%;
     color:#e9ecef;
     background-color:#720;
 }
@@ -61,13 +61,16 @@ const Testing = createGlobalStyle`
 
 .testing-footer{
     width:100%;
-    height:30vh;
+    /* height:20vh; */
     color:#e9ecef;
+    padding-top: 1%;
+    padding-bottom: 1%;
     background-color:maroon;
 }
 .testing-footer-ul{
-    // columns:3;
-    padding-top:20px;
+    columns:3;
+    padding-top:1%;
+    padding-bottom: 0%;
 }
 .texting-footer-icon{
     color:greenyellow;
@@ -77,7 +80,7 @@ const Testing = createGlobalStyle`
     width:90%;
     text-align:center;
     padding:0.5rem;
-    margin-bottom: 1.0rem!importan;
+    margin-bottom: 1.0rem!important;
 }
 
 // mobile
@@ -86,7 +89,7 @@ const Testing = createGlobalStyle`
 // <-------------app testing service section-------------------------> 
 
     .testing{
-        height:210vh;
+        /* height:210vh; */
     }
     .text-ul{
         columns:1;
@@ -112,21 +115,21 @@ const Testing = createGlobalStyle`
 // <-------------app testing service section-------------------------> 
 
     .testing{
-        height:120vh;
+        /* height:100vh; */
     }
     .text-ul{
         columns:2;
-        margin-top:30px;
+        /* margin-top:30px; */
         }
         .app_text{
             font-size:18px;
-            height:18vh;
+            /* height:18vh; */
         }
         .seo_mark{
-            height:110vh;
+            height:42vh;
         }
         .testing-footer{
-            height:60vh;
+            height:30vh;
         }
         .testing-footer-ul{
             columns:1;
@@ -139,21 +142,21 @@ const Testing = createGlobalStyle`
 // <-------------app testing service section-------------------------> 
 
     .testing{
-        height:85vh;
+        height:65vh;
     }
     .app_text{
         height:16vh;
         font-size:16px;
     }
     .seo_mark{
-        height:90vh;
+        height:40vh;
     }
     .seo-btn{
-        width:50vh;
-        height:15vh;
+        width:30vh;
+        height:50px;
     }
     .testing-footer{
-        height:30vh;
+        height:15vh;
     }
     .testing-footer-ul{
         columns:3;
@@ -167,7 +170,7 @@ const Testing = createGlobalStyle`
         height:100vh;
     }
     .app_text{
-        height:20vh;
+        height:28vh;
         font-size:22px;
     }
     .seo_mark{
@@ -192,7 +195,7 @@ const Testing = createGlobalStyle`
         height:100vh;
     }
     .app_text{
-        height:20vh;
+        height:28vh;
         font-size:22px;
     }
     .seo_mark{

@@ -6,7 +6,7 @@ import Testing from './Style/app-testing';
 
 export default function App_testing_service() {
     return (
-        <fragments>
+        <div>
             <Testing />
              {/* -------------app testing service section-------------------------  */}
             <div className="testing">
@@ -41,6 +41,6 @@ export default function App_testing_service() {
                 </ul>
             </div>
 
-        </fragments>
+        </div>
         )
 }
