@@ -12,12 +12,12 @@ export default function OurProjext() {
                 <li className="project-div-li-m"><a href="/">Web</a></li>
             </ul>
             <ul className="project-title">
-                <li>Service</li>
-                <li>pazi</li>
-                <li>groupmeet</li>
-                <li>dollor</li>
-                <li>appbiz</li>
-                <li>buddy</li>
+                <li><a href="/" className="project-title-a">HTML Learning</a></li>
+                <li><a href="/" className="project-title-a">CSS Learning</a></li>
+                <li><a href="/" className="project-title-a">JavaScript Learning</a></li>
+                <li><a href="/" className="project-title-a">ToDo List</a></li>
+                <li><a href="/" className="project-title-a">React Learning</a></li>
+                <li><a href="/" className="project-title-a">E-commerce Project</a></li>
             </ul>
         </div>
     )

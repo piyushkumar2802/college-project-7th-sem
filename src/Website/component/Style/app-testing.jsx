@@ -99,10 +99,10 @@ const Testing = createGlobalStyle`
             height:18vh;
         }
         .seo_mark{
-            height:140vh;
+            height:60vh;
         }
         .testing-footer{
-            height:65vh;
+            height:40vh;
         }
         .testing-footer-ul{
             columns:1;
@@ -126,7 +126,7 @@ const Testing = createGlobalStyle`
             /* height:18vh; */
         }
         .seo_mark{
-            height:42vh;
+            height:50vh;
         }
         .testing-footer{
             height:30vh;

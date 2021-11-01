@@ -74,8 +74,11 @@ const Header = createGlobalStyle`
 }
 @media only screen and ( max-width:980px) {
     .top-nav-bar{
-        height: 116px;
+        height:116px;
         border-bottom:0;
+    }
+    .carousel-indicators{
+        display: none;
     }
     .search-box{
         width:98%;
@@ -84,12 +87,10 @@ const Header = createGlobalStyle`
         width:100%;
     }
     .menu-bar ul{
-        /* margin:10px 0; */
         width:100%;
         padding-left: 0rem;
     }
     .menu-bar ul li{
-        /* height:10vh; */
         width:100%;
         padding:0;
         padding-bottom:1%;

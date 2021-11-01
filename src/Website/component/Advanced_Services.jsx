@@ -2,9 +2,9 @@ import React, { Component } from 'react';
 import { } from 'react-bootstrap';
 import Services from "./Style/Advance-services";
 import Slider1 from './image/slider-1.jpg';
-import Slider2 from './image/slider-2';
+import Slider2 from './image/slider-2.jpg';
 import Slider3 from './image/slider-3.jpg';
-import Slider4 from './image/slider.jpg';
+import Slider4 from './image/slider-4.jpg';
 
 export default class Advanced_Services extends Component {
     render() {
