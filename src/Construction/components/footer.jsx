@@ -18,7 +18,8 @@ class footer extends React.Component {
                                         <i className="fas fa-map-marker-alt"></i>
                                         <div className="cta-text">
                                             <h4>Find us</h4>
-                                            <span>New Mahaveer Colony Beur Patna-2 800002.</span>
+                                            <span>New Mahaveer Colony Beur Patna-2 <br /> 800002.</span>
+                                            <br /><br />
                                         </div>
                                     </div>
                                 </div>
@@ -27,7 +28,8 @@ class footer extends React.Component {
                                         <i className="fas fa-phone"></i>
                                         <div className="cta-text">
                                             <h4>Call us</h4>
-                                            <span>+91 9905532741</span>
+                                            <span>+91 8877964960 <br /> +91 7488469523</span>
+                                            <br /><br />
                                         </div>
                                     </div>
                                 </div>
@@ -36,7 +38,8 @@ class footer extends React.Component {
                                         <i className="far fa-envelope-open"></i>
                                         <div className="cta-text">
                                             <h4>Mail us</h4>
-                                            <span>rkc2802@gmil.com</span>
+                                            <span>murlikumarnit@gmail.com</span><br/>
+                                            <span>murlimanohar96558@gmail.com</span>
                                         </div>
                                     </div>
                                 </div>

@@ -1,5 +1,5 @@
 import React, { Fragment } from 'react';
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import { FaClock, FaLocationArrow, FaPhoneAlt } from "react-icons/fa";
 import CStyle from './Style/Contact-s';
@@ -28,8 +28,8 @@ class contect extends React.Component {
                                             <div className="info-box">
                                             <FaPhoneAlt className="contact-icon" />
                                                 <span>Call Us</span><br/><br/>
-                                                <p>+91 9199488081</p>
-                                                <p>+91 9199488081</p>
+                                                <p>+91 7488469523</p>
+                                                <p>+91 8877964960</p>
                                             </div>
                                         </div>
 
@@ -37,8 +37,8 @@ class contect extends React.Component {
                                             <div className="info-box">
                                             <FontAwesomeIcon icon={faEnvelope} className="contact-icon" />
                                                 <span>Mail Us</span><br/><br/>
-                                                <p>info@wyreflow.in</p>
-                                                <p>info@wyreflow.in</p>
+                                                <p>murlimanohar96558@gmail.com</p>
+                                                <p>murlikumarnit@gmail.com</p>
                                             </div>
                                         </div>
 
@@ -46,9 +46,9 @@ class contect extends React.Component {
                                             <div className="info-box">
                                             <FaLocationArrow className="contact-icon" />
                                                 <span>Address</span><br/><br/>
-                                                <p>BNEST,SMART CITY kalibadi Rd,sector-A,Berkheda,Bhopal
+                                                <p>New Mahaveer Colony Beur , Patna-2
                                                     <br />
-                                                    Madhya Pradesh,462023.
+                                                    Bihar ,800002
                                                 </p>
                                             </div>
                                         </div>
@@ -57,7 +57,7 @@ class contect extends React.Component {
                                             <div className="info-box">
                                             <FaClock className="contact-icon" />
                                                 <span>Open Hours</span><br /><br/><br/>
-                                                <p>Monday - Sunday<br />10:00am - 9:00pm</p>
+                                                <p>Monday - Sunday<br />10:00am - 6:00pm</p>
                                             </div>
                                         </div>
                                     </div>

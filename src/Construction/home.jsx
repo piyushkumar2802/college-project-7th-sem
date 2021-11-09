@@ -1,31 +1,30 @@
-import React , {Fragment} from 'react';
+import React, { Fragment } from 'react';
 import GlobleStyle from './GlobleStyle';
-import FrontPage from './FrontPage';
-// import Navbar from './components/Navbar';
-// import Slider from './components/slider';
-// import About from './components/About';
-// import Started from './components/Started';
-// import Services from './components/Services';
-// import Quality from './components/Quality';
-// import Clients from './components/Clients';
-// import Contect from './components/contect';
-// import Footer from './components/footer';
+import Navbar from './components/Navbar';
+import Slider from './components/slider';
+import About from './components/About';
+import Started from './components/Started';
+import Services from './components/Services';
+import Quality from './components/Quality';
+import Clients from './components/Clients';
+import Contect from './components/contect';
+import Footer from './components/footer';
 
-const Home = ()=>{
-    
-    return(
+const Home = () => {
+
+
+    return (
         <Fragment>
             <GlobleStyle />
-                < FrontPage />
-                {/* <Navbar /> */}
-                {/* <Slider /> */}
-                {/* <About /> */}
-                {/* <Started /> */}
-                {/* <Services /> */}
-                {/* <Quality /> */}
-                {/* <Clients /> */}
-                {/* <Contect /> */}
-                {/* <Footer /> */}
+            <Navbar />
+             <Slider />
+            <About />
+            <Started />
+            <Services />
+            <Quality />
+            <Clients />
+            <Contect />
+            <Footer />
         </Fragment>
     )
 }

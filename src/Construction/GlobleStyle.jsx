@@ -41,7 +41,7 @@ const GlobleStyle = createGlobalStyle`
         background-color:purple;
     }
     
-   /* home page section  */
+   /* front page section  */
    @keyframes rot{
               0%{
                   transform:rotate(0deg);
@@ -49,10 +49,11 @@ const GlobleStyle = createGlobalStyle`
               100%{
                 transform:rotate(360deg);
               }
-          }
-          .rotate{
-            Animation: rot 2s linear infinite;
-          }
+            }
+            .rotate{
+          Animation: rot 2s linear infinite;
+        }
+          
    /*end  home page section  */
 `;
 export default GlobleStyle;
