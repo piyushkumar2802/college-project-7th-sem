@@ -5,14 +5,14 @@ const Services = createGlobalStyle`
 .contact{
   margin: 0%;
   padding: 2% 0;
-  padding-bottom: 5%;
+  padding-bottom: 10%;
   background: #767c94;
 }
 
 .h-c{
-  font-size: 20px;
+  font-size: 24px;
   color: #000;
-  text-shadow:0px -18px 1px #494b2f;
+  /* text-shadow:0px -18px 1px #494b2f; */
   transform: skewX(-25deg);
   padding-top:15%;
   left: 15%;

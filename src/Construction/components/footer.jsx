@@ -82,7 +82,7 @@ class footer extends React.Component {
                                 <div className="col-xl-4 col-lg-4 col-md-6 mb-50">
                                     <div className="footer-widget">
                                         <div className="footer-widget-heading">
-                                            <h3>Contact Us</h3>
+                                            <h3>Office Location</h3>
                                         </div>
                                         <div className="footer-text mb-25 text-center">
                                             <p>map</p>
@@ -95,8 +95,7 @@ class footer extends React.Component {
                     </div>
                     <div className="copyright-area">
                         <div className="copyright-text">
-                            <p>&copy; All Right Reserved <br />
-                                Designed By-<a href="/">piyush kumar</a></p>
+                            <p>&copy; All Right Reserved</p>
                         </div>
                     </div>
                 </footer>

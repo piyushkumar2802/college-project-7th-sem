@@ -32,10 +32,7 @@ const GlobleStyle = createGlobalStyle`
         height:400px;
         background:red;
     }
-    .services{
-        height:500px;
-        background:#ccc;
-    }
+    
     .quality{
         height:500px;
         background-color:purple;
