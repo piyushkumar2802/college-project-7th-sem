@@ -1,26 +1,14 @@
-import React , { Fragment, useState, useEffect } from 'react'
+import React , { Fragment } from 'react';
 import './App.css';
-import FrontPage from './Construction/FrontPage';
-import Website from './Construction/home';
+// import Website from './Component/Website';
+import About from "./Component/Goverment";
 
 function App() {
-  const [loading, setloading] = useState(false);
-
-    useEffect(() => {
-        setloading(true)
-        setTimeout(() => {
-            setloading(false)
-        }, 5000);
-    }, [])
 
   return (
     <Fragment className="App">
-      {
-                loading ?
-                    < FrontPage />
-                    :
-                    < Website />
-                }
+      {/* < Website /> */}
+      < About />
     </Fragment>
   );
 }
