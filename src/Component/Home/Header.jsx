@@ -26,7 +26,7 @@ function Header() {
                                 <li><a className="nav-link  to" href="/">Home</a></li>
                                 <li><a className="nav-link scrollto" href="/">About</a></li>
                                 <li><a className="nav-link scrollto" href="/">Services</a></li>
-                                <li><a className="nav-link scrollto" href={Contact}>Contact</a>
+                                <li><a className="nav-link scrollto" href="/">Contact</a>
                                 </li>
                                 <li className="dropdown"><span>Hospital</span> <i
                                     className="bi bi-chevron-down"></i>

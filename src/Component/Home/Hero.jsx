@@ -19,7 +19,9 @@ function Hero() {
         <Fragment>
 
             <section id="hero" className="hero d-flex align-items-center">
-                <img src={Background} alt="" />
+                <img src={Background} alt="" style={{
+                    width:"100%"
+                }}/>
 
                 <div id="slider" >
                     <div className="slides">
