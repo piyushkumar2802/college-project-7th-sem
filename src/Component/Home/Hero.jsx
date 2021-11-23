@@ -3,6 +3,7 @@ import Slider1 from '../Image/header/health1.jpg';
 import Slider2 from '../Image/header/header-1.jpg';
 import Slider3 from '../Image/header/header-2.jpg';
 import Slider4 from '../Image/header/header-3.webp';
+import Background from "../Image/header/pngwing8.png"
 
 function Hero() {
     const slidercontent = {
@@ -18,8 +19,9 @@ function Hero() {
         <Fragment>
 
             <section id="hero" className="hero d-flex align-items-center">
+                <img src={Background} alt="" />
 
-                <div id="slider">
+                <div id="slider" >
                     <div className="slides">
 
                         <div className="slider">

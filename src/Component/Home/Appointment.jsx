@@ -35,11 +35,11 @@ function Appointment() {
                                     </div>
 
                                     <div class="col-md-6">
-                                        <input type="date" name="date" class="form-control" required="" />
+                                        <input type="date" name="date" class="form-control" required="" placeholder="Date" />
                                     </div>
 
                                     <div class="col-md-6 ">
-                                        <input type="time" class="form-control" name="time" placeholder="HH/MM" required="" />
+                                        <input type="time" class="form-control" name="time" placeholder="Time" required="" />
                                     </div>
 
                                     <div class="col-md-12">

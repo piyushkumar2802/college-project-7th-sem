@@ -130,7 +130,9 @@ const GlobleStyle = createGlobalStyle`
   z-index: 997;
   padding: 5px 7px 5px 10px;
   margin:0 -20px;
+  background:-moz-linear-gradient(349deg, rgba(10, 10, 3, 1) 0%, rgba(0, 188, 212, 1) 50%, rgba(238, 130, 238, 1) 100%);
 }
+
 .header div{
     max-width:1360px;
     padding:0px 15px 0 10px;
@@ -286,7 +288,6 @@ div.borderYtoX a:hover:before, div.borderYtoX a:hover:after{
   z-index: 99;
   opacity: 0;
   visibility: hidden;
-  background-image: url(https://image.shutterstock.com/image-vector/abstract-blue-wavy-blurred-light-260nw-788555176.jpg);
   box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
   transition: 0.3s;
   border-radius: 4px;

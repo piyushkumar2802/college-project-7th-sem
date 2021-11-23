@@ -468,7 +468,10 @@ input[type = "text"].txtlcfmail {
 
 @media(max-width: 720px) {
     .listingwrap {
-        padding-top: 15%;
+        padding-top: 30%;
+    }
+    .hidevirtual{
+        padding:10% 0;
     }
 }
 

@@ -7,6 +7,12 @@ import Sgoverment from './Style/Sgoverment';
 
 export default class Goverment extends Component {
     render() {
+        const Govermentli = {
+            boxShadow:"2px 2px 1px 2px #998c8c",
+            padding: "0px 0px 2% 10px",
+            marginBottom: "20px"
+        }
+
         return (
             <div>
 
@@ -46,7 +52,7 @@ export default class Goverment extends Component {
 
                                     <li className="list-item view-r" data-loc="Aish Bagh" data-city="Bhopal" data-country="IN"
                                         data-pincode="470115" data-rating="0" data-id="10736554" data-type=""
-                                        data-name="Pipuls hospital " data-bvn="+91 7898866961">
+                                        data-name="Pipuls hospital " data-bvn="+91 7898866961" style={Govermentli}>
                                         <div className="wraper">
                                             <div className="head">
                                                 <input type="hidden" value="//sulcdn.azureedge.net/content/images/no-photo.png"
@@ -90,9 +96,10 @@ export default class Goverment extends Component {
                                     <input type="hidden" value="+917552411307" id="hdnMobileNumber-1" />
                                     <input type="hidden" value="0" id="hdBusinessRating-1" />
                                     <input type="hidden" value="0" id="hdBusinessReviewCount-1" />
+
                                     <li className="list-item view-r" data-loc="Ghora Nakkas" data-city="Bhopal" data-country="IN"
                                         data-pincode="462001" data-rating="0" data-id="2271929" data-type=""
-                                        data-name="Akshaya Hospital" data-bvn="2411307">
+                                        data-name="Akshaya Hospital" data-bvn="2411307" style={Govermentli}>
                                         <div className="wraper">
                                             <div className="head">
                                                 <input type="hidden" value="//sulcdn.azureedge.net/content/images/no-photo.png"
@@ -132,7 +139,7 @@ export default class Goverment extends Component {
                                             id="hdBusinessReviewCount-2" />
                                     <li className="list-item view-r" data-loc="Ghora Nakkas" data-city="Bhopal" data-country="IN"
                                         data-pincode="462001" data-rating="0" data-id="2493784" data-type=""
-                                        data-name="Suditi Hospital" data-bvn="2666660">
+                                        data-name="Suditi Hospital" data-bvn="2666660" style={Govermentli}>
                                         <div className="wraper">
                                             <div className="head"><input type="hidden"
                                                 value="//sulcdn.azureedge.net/content/images/no-photo.png" id="hdnImageLink-2" />
@@ -168,7 +175,7 @@ export default class Goverment extends Component {
 
                                     <li className="list-item view-r" data-loc="Jahangirabad" data-city="Bhopal" data-country="IN"
                                         data-pincode="462008" data-rating="4" data-id="2493785" data-type=""
-                                        data-name="Vardan Hospital" data-bvn="2765634">
+                                        data-name="Vardan Hospital" data-bvn="2765634" style={Govermentli}>
                                         <div className="wraper">
                                             <div className="head"><input type="hidden"
                                                 value="//sulcdn.azureedge.net/content/images/no-photo.png" id="hdnImageLink-3" />
@@ -182,28 +189,11 @@ export default class Goverment extends Component {
                                                 </div>
                                                 <p className="icon-tag f-icon"><em>Government Hospitals</em></p>
                                             </div>
-                                            <div className="body" style={{maxHeight:"113px"}} data-height="266">
-                                                <div className="reviews"><span className="rev-name"> <b> ANWAR KHAN </b> <span> </span>
-                                                </span> <span className="rev-date"> <span
-                                                    className="star4 small"><span><i></i></span></span>
-                                                        <date>20<sup>th</sup> Jun, 2012</date>
-                                                    </span>
-                                                    <p>vardan is good hospital of bhopal city hospital has all facilities and their
-                                                        staff is also good no doubt vardan hospital is one of the best hospital</p>
-                                                </div>
-                                                <div className="reviews"><span className="rev-name"> <b> mohammed shakir </b> <span> </span>
-                                                </span> <span className="rev-date"> <span
-                                                    className="star4 small"><span><i></i></span></span>
-                                                        <date>14<sup>th</sup> Feb, 2012</date>
-                                                    </span>
-                                                    <p>the hospital give great facility like food and laundry clothes and the doctor
-                                                        visit thrice a day</p>
-                                                </div>
+                                            <div className="body">
                                                 <address className="icon-address f-icon">Jahangirabad, Bhopal - 462008</address>
                                             </div>
-                                            <div id="showMoreDetails"><a className="viewmore"
-                                                title="View more about Vardan Hospital in Bhopal-462008"></a></div>
-                                            <div className="foot"><button className="btn-t stp f-icon savePhoneEmail"
+                                            
+                                            <div className="foot hidevirtual"><button className="btn-t stp f-icon savePhoneEmail"
                                                 title="Send details of Vardan Hospital in Bhopal to your mobile &amp; email"
                                                 data-haslcf="False" data-cta="needlcfpop" data-ispaid="False"></button></div>
                                         </div>
@@ -221,7 +211,7 @@ export default class Goverment extends Component {
 
                                     <li className="list-item view-r" data-loc="Peer Gate" data-city="Bhopal" data-country="IN"
                                         data-pincode="462001" data-rating="0" data-id="2493786" data-type=""
-                                        data-name="Chirayu Health &amp; Medicare Pvt. Ltd." data-bvn="2737401">
+                                        data-name="Chirayu Health &amp; Medicare Pvt. Ltd." data-bvn="2737401" style={Govermentli}>
                                         <div className="wraper">
                                             <div className="head"><input type="hidden"
                                                 value="//sulcdn.azureedge.net/content/images/no-photo.png" id="hdnImageLink-4" />
@@ -255,7 +245,7 @@ export default class Goverment extends Component {
 
                                     <li className="list-item view-r" data-loc="Maharana Pratap Nagar" data-city="Bhopal"
                                         data-country="IN" data-pincode="462011" data-rating="0" data-id="2493787" data-type=""
-                                        data-name="Batra Hospital" data-bvn="4272672">
+                                        data-name="Batra Hospital" data-bvn="4272672" style={Govermentli}>
                                         <div className="wraper">
                                             <div className="head"><input type="hidden"
                                                 value="//sulcdn.azureedge.net/content/images/no-photo.png" id="hdnImageLink-5" />
@@ -289,7 +279,7 @@ export default class Goverment extends Component {
 
                                     <li className="list-item view-r" data-loc="Bhopal" data-city="Bhopal" data-country="IN"
                                         data-pincode="462037" data-rating="4.5" data-id="2493788" data-type=""
-                                        data-name="People's Hospital" data-bvn="4005051">
+                                        data-name="People's Hospital" data-bvn="4005051" style={Govermentli}>
                                         <div className="wraper">
                                             <div className="head"><input type="hidden"
                                                 value="//sulcdn.azureedge.net/content/images/no-photo.png" id="hdnImageLink-6" />
@@ -303,34 +293,11 @@ export default class Goverment extends Component {
                                                 </div>
                                                 <p className="icon-tag f-icon"><em>Government Hospitals</em></p>
                                             </div>
-                                            <div className="body" style={{maxHeight: "137px"}} data-height="338">
-                                                <div className="reviews"><span className="rev-name"> <b> ANWAR KHAN </b> <span> </span>
-                                                </span> <span className="rev-date"> <span
-                                                    className="star5 small"><span><i></i></span></span>
-                                                        <date>20<sup>th</sup> Jun, 2012</date>
-                                                    </span>
-                                                    <p>people's group one of biggest group of medical field .people's hospital has
-                                                        many branches in bhopal like malviya nagar and kazi camp but main hospital
-                                                        is bhanpur campus which is really a broad campus area and they build a big
-                                                        buildings and good thing is that this hospital charged on patient half
-                                                        charge half charge of treatment and operation bear by hospital itself
-                                                        because its belong to charity</p>
-                                                </div>
-                                                <div className="reviews"><span className="rev-name"> <b> pardeep </b> <span> </span> </span>
-                                                    <span className="rev-date"> <span className="star4 small"><span><i></i></span></span>
-                                                        <date>17<sup>th</sup> Sep, 2011</date>
-                                                    </span>
-                                                    <p>Peoples Hospital in Bhopal this hospital is very popular in the whole city
-                                                        there are all types of treatements available sthere are all experience
-                                                        doctors availabels there are a good qualify doctors availabels in this
-                                                        hospital all types of operation done by t he good by the doctors</p>
-                                                </div>
+                                            <div className="body">
                                                 <address className="icon-address f-icon">Berasia Road Kazi Camp, Bhopal, Bhopal - 462037
                                                 </address>
                                             </div>
-                                            <div id="showMoreDetails"><a className="viewmore" title="View more about People" s=""
-                                                hospital="" in="" bhopal-462037=""></a></div>
-                                            <div className="foot"><button className="btn-t stp f-icon savePhoneEmail"
+                                            <div className="foot hidevirtual"><button className="btn-t stp f-icon savePhoneEmail"
                                                 title="Send details of People's Hospital in Bhopal to your mobile &amp; email"
                                                 data-haslcf="False" data-cta="needlcfpop" data-ispaid="False"></button></div>
                                         </div>
@@ -347,7 +314,7 @@ export default class Goverment extends Component {
                                             id="hdBusinessReviewCount-7" />
                                     <li className="list-item view-r" data-loc="Jawahar Chowk" data-city="Bhopal" data-country="IN"
                                         data-pincode="462003" data-rating="0" data-id="2493789" data-type=""
-                                        data-name="Jashdeep Hospital" data-bvn="2779110">
+                                        data-name="Jashdeep Hospital" data-bvn="2779110" style={Govermentli}>
                                         <div className="wraper">
                                             <div className="head"><input type="hidden"
                                                 value="//sulcdn.azureedge.net/content/images/no-photo.png" id="hdnImageLink-7" />
@@ -381,7 +348,7 @@ export default class Goverment extends Component {
 
                                     <li className="list-item view-r" data-loc="Kohefiza" data-city="Bhopal" data-country="IN"
                                         data-pincode="462001" data-rating="4" data-id="2493790" data-type=""
-                                        data-name="Mayo Hospital" data-bvn="2548094">
+                                        data-name="Mayo Hospital" data-bvn="2548094" style={Govermentli}>
                                         <div className="wraper">
                                             <div className="head"><input type="hidden"
                                                 value="//sulcdn.azureedge.net/content/images/no-photo.png" id="hdnImageLink-8" />
@@ -395,30 +362,12 @@ export default class Goverment extends Component {
                                                 </div>
                                                 <p className="icon-tag f-icon"><em>Government Hospitals</em></p>
                                             </div>
-                                            <div className="body" style={{maxHeight: "113px"}} data-height="290">
-                                                <div className="reviews"><span className="rev-name"> <b> ANWAR KHAN </b> <span> </span>
-                                                </span> <span className="rev-date"> <span
-                                                    className="star4 small"><span><i></i></span></span>
-                                                        <date>20<sup>th</sup> Jun, 2012</date>
-                                                    </span>
-                                                    <p>mayo hospital is also a good hospital of bhopal hospital provided all
-                                                        facilities for primary treatment to typical operation and has all equipment
-                                                        for good surgery</p>
-                                                </div>
-                                                <div className="reviews"><span className="rev-name"> <b> Dharma </b> <span> </span> </span>
-                                                    <span className="rev-date"> <span className="star5 small"><span><i></i></span></span>
-                                                        <date>14<sup>th</sup> Jun, 2012</date>
-                                                    </span>
-                                                    <p>Mayo Hospital in BhopalThis is a very GOod and awesome hospital HEre 400
-                                                        Patient Rooms avilable...THey are solving all diagnostic and therapeutic
-                                                        services along with nursing facilities.</p>
-                                                </div>
+                                            <div className="body">
+                                               
                                                 <address className="icon-address f-icon">Sultania Road, S.B.I. Square, Kohefiza, Bhopal
                                                     - 462001</address>
                                             </div>
-                                            <div id="showMoreDetails"><a className="viewmore"
-                                                title="View more about Mayo Hospital in Bhopal-462001"></a></div>
-                                            <div className="foot"><button className="btn-t stp f-icon savePhoneEmail"
+                                            <div className="foot hidevirtual"><button className="btn-t stp f-icon savePhoneEmail"
                                                 title="Send details of Mayo Hospital in Bhopal to your mobile &amp; email"
                                                 data-haslcf="False" data-cta="needlcfpop" data-ispaid="False"></button></div>
                                         </div>
@@ -431,9 +380,10 @@ export default class Goverment extends Component {
                                         type="hidden" value="ESI Corp." id="hdnBusinessName-9" /> <input type="hidden"
                                             value="+917552559633" id="hdnMobileNumber-9" /> <input type="hidden" value="5"
                                                 id="hdBusinessRating-9" /> <input type="hidden" value="1" id="hdBusinessReviewCount-9" />
+
                                     <li className="list-item view-r" data-loc="Sonagiri" data-city="Bhopal" data-country="IN"
                                         data-pincode="462021" data-rating="5" data-id="2577781" data-type="" data-name="ESI Corp."
-                                        data-bvn="2559633">
+                                        data-bvn="2559633" style={Govermentli}>
                                         <div className="wraper">
                                             <div className="head"><input type="hidden"
                                                 value="//sulcdn.azureedge.net/content/images/no-photo.png" id="hdnImageLink-9" />
@@ -446,23 +396,10 @@ export default class Goverment extends Component {
                                                 </div>
                                                 <p className="icon-tag f-icon"><em>Government Hospitals</em></p>
                                             </div>
-                                            <div className="body" style={{maxHeight: "137px"}} data-height="191">
-                                                <div className="reviews"><span className="rev-name"> <b> Maria Malu </b> <span> </span>
-                                                </span> <span className="rev-date"> <span
-                                                    className="star5 small"><span><i></i></span></span>
-                                                        <date>8<sup>th</sup> May, 2012</date>
-                                                    </span>
-                                                    <p>the facilities of this hospital is really nice my aunt was admited in this
-                                                        hospital n i seen tht the facilities n the services they give to the
-                                                        patience is so much nice i really like the service they provide to the
-                                                        patience they gave the tablets to the patience on tym n lots of other
-                                                        facilities</p>
-                                                </div>
+                                            <div className="body">
                                                 <address className="icon-address f-icon">Sonagiri, Bhopal - 462021</address>
                                             </div>
-                                            <div id="showMoreDetails"><a className="viewmore"
-                                                title="View more about ESI Corp. in Bhopal-462021"></a></div>
-                                            <div className="foot"><button className="btn-t stp f-icon savePhoneEmail"
+                                            <div className="foot hidevirtual"><button className="btn-t stp f-icon savePhoneEmail"
                                                 title="Send details of ESI Corp. in Bhopal to your mobile &amp; email"
                                                 data-haslcf="False" data-cta="needlcfpop" data-ispaid="False"></button></div>
                                         </div>
@@ -477,9 +414,10 @@ export default class Goverment extends Component {
                                                 id="hdnBusinessName-10" /> <input type="hidden" value="+919300055965" id="hdnMobileNumber-10" />
                                     <input type="hidden" value="0" id="hdBusinessRating-10" /> <input type="hidden" value="0"
                                         id="hdBusinessReviewCount-10" />
+
                                     <li className="list-item view-r" data-loc="Jahangirabad" data-city="Bhopal" data-country="IN"
                                         data-pincode="462001" data-rating="0" data-id="2816925" data-type=""
-                                        data-name="Bull Machines Pvt. Ltd." data-bvn="+91 9300055965">
+                                        data-name="Bull Machines Pvt. Ltd." data-bvn="+91 9300055965" style={Govermentli}>
                                         <div className="wraper">
                                             <div className="head"><input type="hidden"
                                                 value="//sulcdn.azureedge.net/content/images/no-photo.png" id="hdnImageLink-10" />
@@ -512,9 +450,10 @@ export default class Goverment extends Component {
                                     <input type="hidden" value="+919229326341" id="hdnMobileNumber-11" /> <input type="hidden"
                                         value="0" id="hdBusinessRating-11" /> <input type="hidden" value="0"
                                             id="hdBusinessReviewCount-11" />
+
                                     <li className="list-item view-r" data-loc="Chouraha Bairiya Road" data-city="Bhopal"
                                         data-country="IN" data-pincode="452010" data-rating="0" data-id="2936929" data-type=""
-                                        data-name="Venus Hospital" data-bvn="+91 9229326341">
+                                        data-name="Venus Hospital" data-bvn="+91 9229326341" style={Govermentli}>
                                         <div className="wraper">
                                             <div className="head"><input type="hidden"
                                                 value="//sulcdn.azureedge.net/content/images/no-photo.png" id="hdnImageLink-11" />
@@ -548,7 +487,7 @@ export default class Goverment extends Component {
                                             id="hdBusinessRating-12" /> <input type="hidden" value="0" id="hdBusinessReviewCount-12" />
                                     <li className="list-item view-r" data-loc="Govindpura" data-city="Bhopal" data-country="IN"
                                         data-pincode="462024" data-rating="0" data-id="2973662" data-type=""
-                                        data-name="Career Institute of Medical Science" data-bvn="2488680">
+                                        data-name="Career Institute of Medical Science" data-bvn="2488680" style={Govermentli}>
                                         <div className="wraper">
                                             <div className="head"><input type="hidden"
                                                 value="//sulcdn.azureedge.net/content/images/no-photo.png" id="hdnImageLink-12" />
@@ -582,7 +521,7 @@ export default class Goverment extends Component {
                                         id="hdBusinessReviewCount-13" />
                                     <li className="list-item view-r" data-loc="Ayodhya Nagar" data-city="Bhopal" data-country="IN"
                                         data-pincode="462041" data-rating="0" data-id="2975167" data-type=""
-                                        data-name="Jeevandhara Hospital" data-bvn="2612950">
+                                        data-name="Jeevandhara Hospital" data-bvn="2612950" style={Govermentli}>
                                         <div className="wraper">
                                             <div className="head"><input type="hidden"
                                                 value="//sulcdn.azureedge.net/content/images/no-photo.png" id="hdnImageLink-13" />
@@ -613,9 +552,10 @@ export default class Goverment extends Component {
                                         type="hidden" value="Meenakshi Hospital" id="hdnBusinessName-14" /> <input type="hidden"
                                             value="+917552466034" id="hdnMobileNumber-14" /> <input type="hidden" value="0"
                                                 id="hdBusinessRating-14" /> <input type="hidden" value="0" id="hdBusinessReviewCount-14" />
+
                                     <li className="list-item view-r" data-loc="Arera Colony" data-city="Bhopal" data-country="IN"
                                         data-pincode="462016" data-rating="0" data-id="2975820" data-type=""
-                                        data-name="Meenakshi Hospital" data-bvn="2466034">
+                                        data-name="Meenakshi Hospital" data-bvn="2466034" style={Govermentli}>
                                         <div className="wraper">
                                             <div className="head"><input type="hidden"
                                                 value="//sulcdn.azureedge.net/content/images/no-photo.png" id="hdnImageLink-14" />
@@ -646,9 +586,10 @@ export default class Goverment extends Component {
                                         type="hidden" value="Narmada Trauma Centre Pvt. Ltd." id="hdnBusinessName-15" /> <input
                                         type="hidden" value="+917554046000" id="hdnMobileNumber-15" /> <input type="hidden" value="0"
                                             id="hdBusinessRating-15" /> <input type="hidden" value="0" id="hdBusinessReviewCount-15" />
+
                                     <li className="list-item view-r" data-loc="Arera Colony" data-city="Bhopal" data-country="IN"
                                         data-pincode="462016" data-rating="0" data-id="2975821" data-type=""
-                                        data-name="Narmada Trauma Centre Pvt. Ltd." data-bvn="4046000">
+                                        data-name="Narmada Trauma Centre Pvt. Ltd." data-bvn="4046000" style={Govermentli}>
                                         <div className="wraper">
                                             <div className="head"><input type="hidden"
                                                 value="//sulcdn.azureedge.net/content/images/no-photo.png" id="hdnImageLink-15" />
@@ -680,9 +621,10 @@ export default class Goverment extends Component {
                                     <input type="hidden" value="+917552576031" id="hdnMobileNumber-16" /> <input type="hidden"
                                         value="0" id="hdBusinessRating-16" /> <input type="hidden" value="0"
                                             id="hdBusinessReviewCount-16" />
+
                                     <li className="list-item view-r" data-loc="M.P. Nagar" data-city="Bhopal" data-country="IN"
                                         data-pincode="462011" data-rating="0" data-id="2975822" data-type=""
-                                        data-name="Navodaya Hospital &amp; Research Centre" data-bvn="2576031">
+                                        data-name="Navodaya Hospital &amp; Research Centre" data-bvn="2576031" style={Govermentli}>
                                         <div className="wraper">
                                             <div className="head"><input type="hidden"
                                                 value="//sulcdn.azureedge.net/content/images/no-photo.png" id="hdnImageLink-16" />
@@ -713,9 +655,10 @@ export default class Goverment extends Component {
                                     <input type="hidden" value="+917552678660" id="hdnMobileNumber-17" /> <input type="hidden"
                                         value="0" id="hdBusinessRating-17" /> <input type="hidden" value="0"
                                             id="hdBusinessReviewCount-17" />
+
                                     <li className="list-item view-r" data-loc="Bairagarh" data-city="Bhopal" data-country="IN"
                                         data-pincode="462030" data-rating="0" data-id="2975823" data-type=""
-                                        data-name="Rajdeep Hospital" data-bvn="2678660">
+                                        data-name="Rajdeep Hospital" data-bvn="2678660" style={Govermentli}>
                                         <div className="wraper">
                                             <div className="head"><input type="hidden"
                                                 value="//sulcdn.azureedge.net/content/images/no-photo.png" id="hdnImageLink-17" />
@@ -748,9 +691,10 @@ export default class Goverment extends Component {
                                                     id="hdnBusinessName-18" /> <input type="hidden" value="+917552427363" id="hdnMobileNumber-18" />
                                     <input type="hidden" value="0" id="hdBusinessRating-18" /> <input type="hidden" value="0"
                                         id="hdBusinessReviewCount-18" />
+
                                     <li className="list-item view-r" data-loc="Gulmohar Colony" data-city="Bhopal" data-country="IN"
                                         data-pincode="462039" data-rating="0" data-id="2975824" data-type=""
-                                        data-name="Sujyoti Hospital &amp; Maternity Home" data-bvn="2427363">
+                                        data-name="Sujyoti Hospital &amp; Maternity Home" data-bvn="2427363" style={Govermentli}>
                                         <div className="wraper">
                                             <div className="head"><input type="hidden"
                                                 value="//sulcdn.azureedge.net/content/images/no-photo.png" id="hdnImageLink-18" />
@@ -781,9 +725,10 @@ export default class Goverment extends Component {
                                         type="hidden" value="Bhopal Heart &amp; General Hospital" id="hdnBusinessName-19" /> <input
                                         type="hidden" value="+917552750055" id="hdnMobileNumber-19" /> <input type="hidden" value="0"
                                             id="hdBusinessRating-19" /> <input type="hidden" value="0" id="hdBusinessReviewCount-19" />
+
                                     <li className="list-item view-r" data-loc="Govindpura" data-city="Bhopal" data-country="IN"
                                         data-pincode="462021" data-rating="0" data-id="3038819" data-type=""
-                                        data-name="Bhopal Heart &amp; General Hospital" data-bvn="2750055">
+                                        data-name="Bhopal Heart &amp; General Hospital" data-bvn="2750055" style={Govermentli}>
                                         <div className="wraper">
                                             <div className="head"><input type="hidden"
                                                 value="//sulcdn.azureedge.net/content/images/no-photo.png" id="hdnImageLink-19" />
@@ -815,9 +760,10 @@ export default class Goverment extends Component {
                                                 id="hdnBusinessName-0" /> <input type="hidden" value="+917554701444" id="hdnMobileNumber-0" />
                                     <input type="hidden" value="0" id="hdBusinessRating-0" /> <input type="hidden" value="0"
                                         id="hdBusinessReviewCount-0" />
+
                                     <li className="list-item view-r" data-loc="Arera Colony" data-city="Bhopal" data-country="IN"
                                         data-pincode="462016" data-rating="0" data-id="3038879" data-type=""
-                                        data-name="Global Liver &amp; Gastroenterology Centre" data-bvn="4701444">
+                                        data-name="Global Liver &amp; Gastroenterology Centre" data-bvn="4701444" style={Govermentli}>
                                         <div className="wraper">
                                             <div className="head"><input type="hidden"
                                                 value="//sulcdn.azureedge.net/content/images/no-photo.png" id="hdnImageLink-0" />
@@ -847,9 +793,10 @@ export default class Goverment extends Component {
                                     <input type="hidden" value="Suyash Hospital" id="hdnBusinessName-1" /> <input type="hidden"
                                         value="+917555279220" id="hdnMobileNumber-1" /> <input type="hidden" value="0"
                                             id="hdBusinessRating-1" /> <input type="hidden" value="0" id="hdBusinessReviewCount-1" />
+
                                     <li className="list-item view-r" data-loc="Kolar Road" data-city="Bhopal" data-country="IN"
                                         data-pincode="462016" data-rating="0" data-id="3040518" data-type=""
-                                        data-name="Suyash Hospital" data-bvn="5279220">
+                                        data-name="Suyash Hospital" data-bvn="5279220" style={Govermentli}>
                                         <div className="wraper">
                                             <div className="head"><input type="hidden"
                                                 value="//sulcdn.azureedge.net/content/images/no-photo.png" id="hdnImageLink-1" />
@@ -880,9 +827,10 @@ export default class Goverment extends Component {
                                         type="hidden" value="Pathak Hospital" id="hdnBusinessName-2" /> <input type="hidden"
                                             value="+917552579538" id="hdnMobileNumber-2" /> <input type="hidden" value="0"
                                                 id="hdBusinessRating-2" /> <input type="hidden" value="0" id="hdBusinessReviewCount-2" />
+
                                     <li className="list-item view-r" data-loc="M.P. Nagar" data-city="Bhopal" data-country="IN"
                                         data-pincode="462011" data-rating="0" data-id="3040519" data-type=""
-                                        data-name="Pathak Hospital" data-bvn="2579538">
+                                        data-name="Pathak Hospital" data-bvn="2579538" style={Govermentli}>
                                         <div className="wraper">
                                             <div className="head"><input type="hidden"
                                                 value="//sulcdn.azureedge.net/content/images/no-photo.png" id="hdnImageLink-2" />
@@ -913,9 +861,10 @@ export default class Goverment extends Component {
                                                 id="hdnBusinessName-3" /> <input type="hidden" value="+917552686644" id="hdnMobileNumber-3" />
                                     <input type="hidden" value="0" id="hdBusinessRating-3" /> <input type="hidden" value="0"
                                         id="hdBusinessReviewCount-3" />
+
                                     <li className="list-item view-r" data-loc="Bhel" data-city="Bhopal" data-country="IN"
                                         data-pincode="460021" data-rating="0" data-id="3040556" data-type=""
-                                        data-name="Sachin Mamta Hospital" data-bvn="2686644">
+                                        data-name="Sachin Mamta Hospital" data-bvn="2686644" style={Govermentli}>
                                         <div className="wraper">
                                             <div className="head"><input type="hidden"
                                                 value="//sulcdn.azureedge.net/content/images/no-photo.png" id="hdnImageLink-3" />
@@ -948,9 +897,10 @@ export default class Goverment extends Component {
                                     <input type="hidden" value="+917552574158" id="hdnMobileNumber-4" /> <input type="hidden"
                                         value="0" id="hdBusinessRating-4" /> <input type="hidden" value="0"
                                             id="hdBusinessReviewCount-4" />
+
                                     <li className="list-item view-r" data-loc="Jahangirabad" data-city="Bhopal" data-country="IN"
                                         data-pincode="462008" data-rating="0" data-id="3040560" data-type=""
-                                        data-name="Charak Hospital &amp; Research Centre" data-bvn="2574158">
+                                        data-name="Charak Hospital &amp; Research Centre" data-bvn="2574158" style={Govermentli}>
                                         <div className="wraper">
                                             <div className="head"><input type="hidden"
                                                 value="//sulcdn.azureedge.net/content/images/no-photo.png" id="hdnImageLink-4" />
@@ -981,9 +931,10 @@ export default class Goverment extends Component {
                                     <input type="hidden" value="Bhopal Charitable Hospital" id="hdnBusinessName-5" /> <input
                                         type="hidden" value="+917555240749" id="hdnMobileNumber-5" /> <input type="hidden" value="0"
                                             id="hdBusinessRating-5" /> <input type="hidden" value="0" id="hdBusinessReviewCount-5" />
+
                                     <li className="list-item view-r" data-loc="Imambara Road" data-city="Bhopal" data-country="IN"
                                         data-pincode="462001" data-rating="0" data-id="3040572" data-type=""
-                                        data-name="Bhopal Charitable Hospital" data-bvn="5240749">
+                                        data-name="Bhopal Charitable Hospital" data-bvn="5240749" style={Govermentli}>
                                         <div className="wraper">
                                             <div className="head"><input type="hidden"
                                                 value="//sulcdn.azureedge.net/content/images/no-photo.png" id="hdnImageLink-5" />
@@ -1014,9 +965,10 @@ export default class Goverment extends Component {
                                         type="hidden" value="Anant Shree Hospital" id="hdnBusinessName-6" /> <input type="hidden"
                                             value="+919329771788" id="hdnMobileNumber-6" /> <input type="hidden" value="0"
                                                 id="hdBusinessRating-6" /> <input type="hidden" value="0" id="hdBusinessReviewCount-6" />
+
                                     <li className="list-item view-r" data-loc="Govindpura" data-city="Bhopal" data-country="IN"
                                         data-pincode="462023" data-rating="0" data-id="3107162" data-type=""
-                                        data-name="Anant Shree Hospital" data-bvn="+91 9329771788">
+                                        data-name="Anant Shree Hospital" data-bvn="+91 9329771788" style={Govermentli}>
                                         <div className="wraper">
                                             <div className="head"><input type="hidden"
                                                 value="//sulcdn.azureedge.net/content/images/no-photo.png" id="hdnImageLink-6" />
@@ -1048,9 +1000,10 @@ export default class Goverment extends Component {
                                             id="hdnZipCode-7" /> <input type="hidden" value="Apex Hospital" id="hdnBusinessName-7" /> <input
                                         type="hidden" value="+919300060092" id="hdnMobileNumber-7" /> <input type="hidden" value="0"
                                             id="hdBusinessRating-7" /> <input type="hidden" value="0" id="hdBusinessReviewCount-7" />
+
                                     <li className="list-item view-r" data-loc="Shahjahanabad" data-city="Bhopal" data-country="IN"
                                         data-pincode="462011" data-rating="0" data-id="3107163" data-type=""
-                                        data-name="Apex Hospital" data-bvn="+91 9300060092">
+                                        data-name="Apex Hospital" data-bvn="+91 9300060092" style={Govermentli}>
                                         <div className="wraper">
                                             <div className="head"><input type="hidden"
                                                 value="//sulcdn.azureedge.net/content/images/no-photo.png" id="hdnImageLink-7" />
@@ -1082,9 +1035,10 @@ export default class Goverment extends Component {
                                     <input type="hidden" value="+919893344123" id="hdnMobileNumber-8" /> <input type="hidden"
                                         value="0" id="hdBusinessRating-8" /> <input type="hidden" value="0"
                                             id="hdBusinessReviewCount-8" />
+
                                     <li className="list-item view-r" data-loc="Bairagarh" data-city="Bhopal" data-country="IN"
                                         data-pincode="462030" data-rating="0" data-id="3107164" data-type=""
-                                        data-name="Bambani Hospital" data-bvn="+91 9893344123">
+                                        data-name="Bambani Hospital" data-bvn="+91 9893344123" style={Govermentli}>
                                         <div className="wraper">
                                             <div className="head"><input type="hidden"
                                                 value="//sulcdn.azureedge.net/content/images/no-photo.png" id="hdnImageLink-8" />
@@ -1116,9 +1070,10 @@ export default class Goverment extends Component {
                                     <input type="hidden" value="GSM Hospital" id="hdnBusinessName-9" /> <input type="hidden"
                                         value="+919826055372" id="hdnMobileNumber-9" /> <input type="hidden" value="0"
                                             id="hdBusinessRating-9" /> <input type="hidden" value="0" id="hdBusinessReviewCount-9" />
+
                                     <li className="list-item view-r" data-loc="New Market" data-city="Bhopal" data-country="IN"
                                         data-pincode="462001" data-rating="0" data-id="3107165" data-type=""
-                                        data-name="GSM Hospital" data-bvn="+91 9826055372">
+                                        data-name="GSM Hospital" data-bvn="+91 9826055372" style={Govermentli}>
                                         <div className="wraper">
                                             <div className="head"><input type="hidden"
                                                 value="//sulcdn.azureedge.net/content/images/no-photo.png" id="hdnImageLink-9" />
@@ -1150,9 +1105,10 @@ export default class Goverment extends Component {
                                     <input type="hidden" value="Pahliwal Hospitals Pvt. Ltd." id="hdnBusinessName-0" /> <input
                                         type="hidden" value="+919425003311" id="hdnMobileNumber-0" /> <input type="hidden" value="0"
                                             id="hdBusinessRating-0" /> <input type="hidden" value="0" id="hdBusinessReviewCount-0" />
+
                                     <li className="list-item view-r" data-loc="Berasia Road" data-city="Bhopal" data-country="IN"
                                         data-pincode="463103" data-rating="0" data-id="3107166" data-type=""
-                                        data-name="Pahliwal Hospitals Pvt. Ltd." data-bvn="+91 9425003311">
+                                        data-name="Pahliwal Hospitals Pvt. Ltd." data-bvn="+91 9425003311" style={Govermentli}>
                                         <div className="wraper">
                                             <div className="head"><input type="hidden"
                                                 value="//sulcdn.azureedge.net/content/images/no-photo.png" id="hdnImageLink-0" />
@@ -1183,9 +1139,10 @@ export default class Goverment extends Component {
                                         type="hidden" value="Parul Hospitals Pvt. Ltd." id="hdnBusinessName-1" /> <input type="hidden"
                                             value="+919826066364" id="hdnMobileNumber-1" /> <input type="hidden" value="0"
                                                 id="hdBusinessRating-1" /> <input type="hidden" value="0" id="hdBusinessReviewCount-1" />
+
                                     <li className="list-item view-r" data-loc="Shivaji Nagar" data-city="Bhopal" data-country="IN"
                                         data-pincode="462011" data-rating="0" data-id="3107167" data-type=""
-                                        data-name="Parul Hospitals Pvt. Ltd." data-bvn="+91 9826066364">
+                                        data-name="Parul Hospitals Pvt. Ltd." data-bvn="+91 9826066364" style={Govermentli}>
                                         <div className="wraper">
                                             <div className="head"><input type="hidden"
                                                 value="//sulcdn.azureedge.net/content/images/no-photo.png" id="hdnImageLink-1" />
@@ -1216,9 +1173,10 @@ export default class Goverment extends Component {
                                         type="hidden" value="Tripti Hospital" id="hdnBusinessName-3" /> <input type="hidden"
                                             value="+919425010240" id="hdnMobileNumber-3" /> <input type="hidden" value="1"
                                                 id="hdBusinessRating-3" /> <input type="hidden" value="2" id="hdBusinessReviewCount-3" />
+
                                     <li className="list-item view-r" data-loc="Lalghati" data-city="Bhopal" data-country="IN"
                                         data-pincode="462032" data-rating="1" data-id="3107169" data-type=""
-                                        data-name="Tripti Hospital" data-bvn="+91 9425010240">
+                                        data-name="Tripti Hospital" data-bvn="+91 9425010240" style={Govermentli}>
                                         <div className="wraper">
                                             <div className="head"><input type="hidden"
                                                 value="//sulcdn.azureedge.net/content/images/no-photo.png" id="hdnImageLink-3" />
@@ -1251,9 +1209,10 @@ export default class Goverment extends Component {
                                     <input type="hidden" value="+919827055610" id="hdnMobileNumber-4" /> <input type="hidden"
                                         value="0" id="hdBusinessRating-4" /> <input type="hidden" value="0"
                                             id="hdBusinessReviewCount-4" />
+
                                     <li className="list-item view-r" data-loc="Shahpura" data-city="Bhopal" data-country="IN"
                                         data-pincode="462023" data-rating="0" data-id="3107170" data-type=""
-                                        data-name="Ayushman Hosptal" data-bvn="+91 9827055610">
+                                        data-name="Ayushman Hosptal" data-bvn="+91 9827055610" style={Govermentli}>
                                         <div className="wraper">
                                             <div className="head"><input type="hidden"
                                                 value="//sulcdn.azureedge.net/content/images/no-photo.png" id="hdnImageLink-4" />
@@ -1284,9 +1243,10 @@ export default class Goverment extends Component {
                                     <input type="hidden" value="Hajela Hospital" id="hdnBusinessName-5" /> <input type="hidden"
                                         value="+919893500012" id="hdnMobileNumber-5" /> <input type="hidden" value="0"
                                             id="hdBusinessRating-5" /> <input type="hidden" value="0" id="hdBusinessReviewCount-5" />
+
                                     <li className="list-item view-r" data-loc="Govindpura" data-city="Bhopal" data-country="IN"
                                         data-pincode="462023" data-rating="0" data-id="3107171" data-type=""
-                                        data-name="Hajela Hospital" data-bvn="+91 9893500012">
+                                        data-name="Hajela Hospital" data-bvn="+91 9893500012" style={Govermentli}>
                                         <div className="wraper">
                                             <div className="head"><input type="hidden"
                                                 value="//sulcdn.azureedge.net/content/images/no-photo.png" id="hdnImageLink-5" />
@@ -1318,9 +1278,10 @@ export default class Goverment extends Component {
                                     <input type="hidden" value="Malti Hospital" id="hdnBusinessName-6" /> <input type="hidden"
                                         value="+919826398484" id="hdnMobileNumber-6" /> <input type="hidden" value="0"
                                             id="hdBusinessRating-6" /> <input type="hidden" value="0" id="hdBusinessReviewCount-6" />
+
                                     <li className="list-item view-r" data-loc="Arera Colony" data-city="Bhopal" data-country="IN"
                                         data-pincode="462016" data-rating="0" data-id="3107172" data-type=""
-                                        data-name="Malti Hospital" data-bvn="+91 9826398484">
+                                        data-name="Malti Hospital" data-bvn="+91 9826398484" style={Govermentli}>
                                         <div className="wraper">
                                             <div className="head"><input type="hidden"
                                                 value="//sulcdn.azureedge.net/content/images/no-photo.png" id="hdnImageLink-6" />
@@ -1352,9 +1313,10 @@ export default class Goverment extends Component {
                                         type="hidden" value="Naman Hospital" id="hdnBusinessName-7" /> <input type="hidden"
                                             value="+919893377030" id="hdnMobileNumber-7" /> <input type="hidden" value="0"
                                                 id="hdBusinessRating-7" /> <input type="hidden" value="0" id="hdBusinessReviewCount-7" />
+
                                     <li className="list-item view-r" data-loc="Shahpura" data-city="Bhopal" data-country="IN"
                                         data-pincode="462023" data-rating="0" data-id="3107173" data-type=""
-                                        data-name="Naman Hospital" data-bvn="+91 9893377030">
+                                        data-name="Naman Hospital" data-bvn="+91 9893377030" style={Govermentli}>
                                         <div className="wraper">
                                             <div className="head"><input type="hidden"
                                                 value="//sulcdn.azureedge.net/content/images/no-photo.png" id="hdnImageLink-7" />
@@ -1387,9 +1349,10 @@ export default class Goverment extends Component {
                                                 id="hdnBusinessName-9" /> <input type="hidden" value="+919826526721" id="hdnMobileNumber-9" />
                                     <input type="hidden" value="0" id="hdBusinessRating-9" /> <input type="hidden" value="0"
                                         id="hdBusinessReviewCount-9" />
+
                                     <li className="list-item view-r" data-loc="TT Nagar" data-city="Bhopal" data-country="IN"
                                         data-pincode="462003" data-rating="0" data-id="3107175" data-type=""
-                                        data-name="Sharda Hospital &amp; Diagnostic Centre" data-bvn="+91 9826526721">
+                                        data-name="Sharda Hospital &amp; Diagnostic Centre" data-bvn="+91 9826526721" style={Govermentli}>
                                         <div className="wraper">
                                             <div className="head"><input type="hidden"
                                                 value="//sulcdn.azureedge.net/content/images/no-photo.png" id="hdnImageLink-9" />
@@ -1422,9 +1385,10 @@ export default class Goverment extends Component {
                                                 id="hdnBusinessName-1" /> <input type="hidden" id="hdnMobileNumber-1" /> <input type="hidden"
                                                     value="0" id="hdBusinessRating-1" /> <input type="hidden" value="0"
                                                         id="hdBusinessReviewCount-1" />
+
                                     <li className="list-item view-r" data-loc="Arera Hills" data-city="Bhopal" data-country="IN"
                                         data-pincode="462016" data-rating="0" data-id="3107177" data-type=""
-                                        data-name="Yash Hospital &amp; Diagnostic Centre" data-bvn="">
+                                        data-name="Yash Hospital &amp; Diagnostic Centre" data-bvn="" style={Govermentli}>
                                         <div className="wraper">
                                             <div className="head"><input type="hidden"
                                                 value="//sulcdn.azureedge.net/content/images/no-photo.png" id="hdnImageLink-1" />
@@ -1457,9 +1421,10 @@ export default class Goverment extends Component {
                                     <input type="hidden" value="+917552770562" id="hdnMobileNumber-2" /> <input type="hidden"
                                         value="5" id="hdBusinessRating-2" /> <input type="hidden" value="1"
                                             id="hdBusinessReviewCount-2" />
+
                                     <li className="list-item view-r" data-loc="Jawahar Chowk" data-city="Bhopal" data-country="IN"
                                         data-pincode="462003" data-rating="5" data-id="4311407" data-type=""
-                                        data-name="Mahakaushal Nurses Registration Council" data-bvn="2770562">
+                                        data-name="Mahakaushal Nurses Registration Council" data-bvn="2770562" style={Govermentli}>
                                         <div className="wraper">
                                             <div className="head"><input type="hidden"
                                                 value="//sulcdn.azureedge.net/content/images/no-photo.png" id="hdnImageLink-2" />
@@ -1493,9 +1458,10 @@ export default class Goverment extends Component {
                                     <input type="hidden" value="+917552742213" id="hdnMobileNumber-3" /> <input type="hidden"
                                         value="0" id="hdBusinessRating-3" /> <input type="hidden" value="0"
                                             id="hdBusinessReviewCount-3" />
+
                                     <li className="list-item view-r" data-loc="Karond" data-city="Bhopal" data-country="IN"
                                         data-pincode="462038" data-rating="0" data-id="4325422" data-type=""
-                                        data-name="Bhopal Memorial Hospital &amp; Research Centre" data-bvn="2742213">
+                                        data-name="Bhopal Memorial Hospital &amp; Research Centre" data-bvn="2742213" style={Govermentli}>
                                         <div className="wraper">
                                             <div className="head"><input type="hidden"
                                                 value="//sulcdn.azureedge.net/content/images/no-photo.png" id="hdnImageLink-3" />
@@ -1525,9 +1491,10 @@ export default class Goverment extends Component {
                                     <input type="hidden" value="JP Hospital" id="hdnBusinessName-4" /> <input type="hidden"
                                         value="+917552660248" id="hdnMobileNumber-4" /> <input type="hidden" value="0"
                                             id="hdBusinessRating-4" /> <input type="hidden" value="0" id="hdBusinessReviewCount-4" />
+
                                     <li className="list-item view-r" data-loc="Panchsheel Nagar" data-city="Bhopal" data-country="IN"
                                         data-pincode="462003" data-rating="0" data-id="4335618" data-type="" data-name="JP Hospital"
-                                        data-bvn="2660248">
+                                        data-bvn="2660248" style={Govermentli}>
                                         <div className="wraper">
                                             <div className="head"><input type="hidden"
                                                 value="//sulcdn.azureedge.net/content/images/no-photo.png" id="hdnImageLink-4" />
@@ -1559,9 +1526,10 @@ export default class Goverment extends Component {
                                         id="hdnBusinessName-5" /> <input type="hidden" value="+919425004392" id="hdnMobileNumber-5" />
                                     <input type="hidden" value="0" id="hdBusinessRating-5" /> <input type="hidden" value="0"
                                         id="hdBusinessReviewCount-5" />
+
                                     <li className="list-item view-r" data-loc="Tulsi Nagar" data-city="Bhopal" data-country="IN"
                                         data-pincode="462003" data-rating="0" data-id="5175607" data-type=""
-                                        data-name="Gandhi Medical College And Hamidiya Hospital" data-bvn="+91 9425004392">
+                                        data-name="Gandhi Medical College And Hamidiya Hospital" data-bvn="+91 9425004392" style={Govermentli}>
                                         <div className="wraper">
                                             <div className="head"><input type="hidden"
                                                 value="//sulcdn.azureedge.net/content/images/no-photo.png" id="hdnImageLink-5" />
@@ -1583,7 +1551,9 @@ export default class Goverment extends Component {
                                                 title="Send details of Gandhi Medical College And Hamidiya Hospital in Bhopal to your mobile &amp; email"
                                                 data-haslcf="False" data-cta="needlcfpop" data-ispaid="False"></button></div>
                                         </div>
-                                    </li><input type="hidden" id="hdnListingPageNumber" value="5" /> <input type="hidden"
+                                    </li>
+                                    
+                                    <input type="hidden" id="hdnListingPageNumber" value="5" /> <input type="hidden"
                                         id="hdnBizHasMoreResults" value="False" /> <input type="hidden" id="hdnAvgScore" value="0" />
                                     <input type="hidden" id="hdnSubCategoryName" value="Government Hospitals" /> <input type="hidden"
                                         id="hdnHasLcf" /> <input type="hidden" id="busypcid" value="0" />

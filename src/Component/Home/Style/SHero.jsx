@@ -5,9 +5,6 @@ const GlobleStyle = createGlobalStyle`
 .hero {
     width: 100%;
     height: 100vh;
-    background-image: url(header/pngwing8.png);
-    background-size: cover;
-    padding:96px 0 0 0 ;
   }
   
   .hero h1 {
@@ -28,7 +25,7 @@ const GlobleStyle = createGlobalStyle`
   @media (max-width: 991px) {
     .hero {
       height:100vh;
-      padding:130px 30px 294px 30px;
+      padding:0px 10px 0px 10px;
     }
     .hero .hero-img {
       text-align: center;
@@ -42,8 +39,8 @@ const GlobleStyle = createGlobalStyle`
   @media (max-width: 768px) {
     .hero {
       text-align: center;
-      padding:100px 30px 60px 30px;
-      height:90vh;
+      padding:130px 30px 0px 30px;
+      height:70vh;
     }
     .hero h1 {
       font-size: 32px;
@@ -55,20 +52,46 @@ const GlobleStyle = createGlobalStyle`
       width: 100%;
     }
   }
+
+  @media (max-width: 540px) {
+    .hero {
+      text-align: center;
+      padding:100px 0px 0px 0px;
+      height:45vh;
+    }
+    .hero h1 {
+      font-size: 32px;
+    }
+    .hero h2 {
+      font-size: 24px;
+    }
+    .hero .hero-img img {
+      width: 100%;
+      height:100vh;
+    }
+  }
   
   /* Slider */
   #slider{
-    width:80%;
+    width:100%;
     height:400px;
-    position:relative;
+    position: absolute;;
     overflow:hidden;
-    margin:0px 120px 40px 120px;
+    margin-top: 5;
   }
   @media (max-width: 991px){
   #slider{
     width:100%;
     height:70vh;
-    padding:100px 0px 0px 0px;
+    padding:0px;
+    margin:unset;
+  }
+  }
+  @media (max-width: 540px){
+  #slider{
+    width:100%;
+    height:28vh;
+    padding:0px;
     margin:unset;
   }
   }
@@ -97,7 +120,15 @@ const GlobleStyle = createGlobalStyle`
     .slider{
       padding:0px;
       animation-duration: 1s;
-      height:350px;
+      height:80vh;
+  }
+  }
+  
+  @media(max-width:540px){
+    .slider{
+      padding:0px;
+      animation-duration: 1s;
+      height:100vh;
   }
   }
   
@@ -166,9 +197,16 @@ const GlobleStyle = createGlobalStyle`
   @media (max-width: 920px) {
   .content-txt{
     width:400px;
-    margin:80px 0 0 -180px;
+    height:35vh;
+    margin:50px 0 10px 0px;
     border-radius: 36px;
     background-color:#506f6780;
+   }
+  }
+
+  @media (max-width: 540px) {
+  .content-txt{
+    display: none;
    }
   }
   
