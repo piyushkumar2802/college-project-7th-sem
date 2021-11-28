@@ -1,13 +1,12 @@
-import React , { Fragment } from 'react';
-import './App.css';
+import React from 'react';
 import Website from './Component/Website';
 
 function App() {
 
   return (
-    <Fragment className="App">
+    <div>
       < Website />
-    </Fragment>
+    </div>
   );
 }
 

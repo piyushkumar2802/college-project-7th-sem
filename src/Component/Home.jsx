@@ -9,8 +9,8 @@ import SHero from './Home/Style/SHero';
 import Hero from './Home/Hero';
 
 // About 
-import HAbout from "./Home/Content";
-import SAbout from "./Home/Style/SHAbout";
+import HWelcome from "./Home/Welcome";
+import SWelcome from "./Home/Style/SWelcome";
 
 // Our Services 
 import OurServices from "./Home/OurServices";
@@ -40,8 +40,8 @@ function Home() {
                 < Hero />
 
             {/* Home/About */}
-                < HAbout />
-                < SAbout />
+                < HWelcome />
+                < SWelcome />
 
             {/* OurServices */}
                 < OurServices />
@@ -54,6 +54,7 @@ function Home() {
             {/* Appointment */}
                 < Appointment />
                 < SAppointment />
+
             {/* Footer */}
                 < Footer />
                 < SFooter />

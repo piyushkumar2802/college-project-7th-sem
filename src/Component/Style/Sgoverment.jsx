@@ -40,7 +40,11 @@ h4 {
     padding: 0;
     outline: 0;
     font-weight: 600;
-    line-height: 1.4em;;
+    line-height: 1.4em;
+}
+
+.head h3{
+    font-size:  20px;
 }
 
 h2 {

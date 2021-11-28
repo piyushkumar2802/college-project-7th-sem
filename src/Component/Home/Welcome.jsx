@@ -20,19 +20,13 @@ function Content() {
               <div className="col-lg-6 d-flex flex-column justify-content-center" data-aos-delay="200">
                 <div className="content">
                   <h3>Welcome to</h3>
-                  <h2>Center Research Technology & Development.</h2>
+                  <h2>Bhopal Health & Services.</h2>
                   <p>
-                    CRTD as noted above, an essential purpose of this volume is to expand on the original version of How
-                    People
-                    Learn by exploring how the findings of research on learning can be incorporated into classNameroom practice.
-                  </p>
-                  <div className="text-center text-lg-start">
-                    <a href="/"
-                      className="btn-read-more d-inline-flex align-items-center justify-content-center align-self-center">
-                      <span>Read More</span>
-                      <i className="bi bi-arrow-right"></i>
-                    </a>
-                  </div>
+                    BHS (Bhopal Health Services) - It provides information about all the hospitals of Bhopal and the name of all the hospitals,
+                     contact numbers and appointments and provide all the information.
+                     <br /><br />
+                  You can find information about all the information, services, Contact and Adressses of
+                     all government hospitals and private hospitals in Bhopal.</p>
                 </div>
               </div>
           

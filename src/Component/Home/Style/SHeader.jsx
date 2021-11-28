@@ -130,7 +130,8 @@ const GlobleStyle = createGlobalStyle`
   z-index: 997;
   padding: 5px 7px 5px 10px;
   margin:0 -20px;
-  background:-moz-linear-gradient(349deg, rgba(10, 10, 3, 1) 0%, rgba(0, 188, 212, 1) 50%, rgba(238, 130, 238, 1) 100%);
+  box-shadow: 2px 2px 2px brown;
+  background:-webkit-linear-gradient(360deg, rgba(0, 255, 235, 1) 0%, rgba(106, 136, 212, 1) 100%);
 }
 
 .header div{
@@ -171,10 +172,6 @@ const GlobleStyle = createGlobalStyle`
 /*--------------------------------------------------------------
 # Navigation Menu
 --------------------------------------------------------------*/
-/**
-* Desktop Navigation 
-*/
-
 /* navbar animation */
 @import 'https://fonts.googleapis.com/css?family=Raleway';
 .navbar {
@@ -371,7 +368,7 @@ div.borderYtoX a:hover:before, div.borderYtoX a:hover:after{
   right: 0;
   left: 0;
   bottom: 0;
-  background: rgba(1, 22, 61, 0.9);
+  background: none;
   transition: 0.3s;
 }
 
@@ -383,13 +380,13 @@ div.borderYtoX a:hover:before, div.borderYtoX a:hover:after{
 .navbar-mobile ul{
   display: block;
   position: fixed;
-  top: 55px;
+  top: 12%;
   right: 15px;
   bottom: 15px;
   left: 15px;
   padding: 10px 0;
   border-radius: 10px;
-  background-color: rgb(102 206 194 / 40%);
+  background-color: rgb(102 206 194 / 60%);
   overflow-y: auto;
   transition: 0.3s;
 }
@@ -439,112 +436,6 @@ div.borderYtoX a:hover:before, div.borderYtoX a:hover:after{
 
 .navbar-mobile .dropdown > .dropdown-active {
   display: block;
-}
-
-
-
-/*--------------------------------------------------------------
-# Services
---------------------------------------------------------------*/
-
-
-/*--------------------------------------------------------------
-# Pricing
---------------------------------------------------------------*/
-.pricing .box {
-  padding: 40px 20px;
-  background: #fff;
-  text-align: center;
-  box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08);
-  border-radius: 4px;
-  position: relative;
-  overflow: hidden;
-  transition: 0.3s;
-}
-
-.pricing .box:hover {
-  transform: scale(1.1);
-  box-shadow: 0px 0 30px rgba(1, 41, 112, 0.1);
-}
-
-.pricing h3 {
-  font-weight: 700;
-  font-size: 18px;
-  margin-bottom: 15px;
-}
-
-.pricing .price {
-  font-size: 36px;
-  color: #444444;
-  font-weight: 600;
-  font-family: "Poppins", sans-serif;
-}
-
-.pricing .price sup {
-  font-size: 20px;
-  top: -15px;
-  left: -3px;
-}
-
-.pricing .price span {
-  color: #bababa;
-  font-size: 16px;
-  font-weight: 300;
-}
-
-.pricing img {
-  padding: 30px 40px;
-}
-
-.pricing ul {
-  padding: 0;
-  list-style: none;
-  color: #444444;
-  text-align: center;
-  line-height: 26px;
-  font-size: 16px;
-  margin-bottom: 25px;
-}
-
-.pricing ul li {
-  padding-bottom: 10px;
-}
-
-.pricing ul .na {
-  color: #ccc;
-  text-decoration: line-through;
-}
-
-.pricing .btn-buy {
-  display: inline-block;
-  padding: 8px 40px 10px 40px;
-  border-radius: 50px;
-  color: #4154f1;
-  transition: none;
-  font-size: 16px;
-  font-weight: 400;
-  font-family: "Nunito", sans-serif;
-  font-weight: 600;
-  transition: 0.3s;
-  border: 1px solid #4154f1;
-}
-
-.pricing .btn-buy:hover {
-  background: #4154f1;
-  color: #fff;
-}
-
-.pricing .featured {
-  width: 200px;
-  position: absolute;
-  top: 18px;
-  right: -68px;
-  transform: rotate(45deg);
-  z-index: 1;
-  font-size: 14px;
-  padding: 1px 0 3px 0;
-  background: #4154f1;
-  color: #fff;
 }
 
 `;

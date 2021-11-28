@@ -23,7 +23,9 @@ export default class Goverment extends Component {
                 <section className="listingwrap">
                     <div id="listing" className="container">
                         <div className="listheader serv-title">
-                            <h2>Government Hospitals in Bhopal</h2>
+                            <h2 style={{
+                                color: "#0E4971"
+                            }}>Government Hospitals in Bhopal</h2>
 
                             <div className="wrapaction">
                                 <span className="sort">Sort by</span>

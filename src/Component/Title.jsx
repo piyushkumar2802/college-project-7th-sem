@@ -1,4 +1,4 @@
-import React, { Fragment } from 'react';
+import React from 'react';
 // import Speek from './Speak';
 import Logo from './Image/logo-1.png';
 import Image1 from './Image/background.png';
@@ -26,7 +26,6 @@ function Title() {
           transform:'translate(-50% , -50%)'
       }
       const h1 = {
-          color:'#0a58ca;',
           position: 'absolute',
           top:'60%',
           left:'auto'
@@ -36,7 +35,7 @@ function Title() {
         height: '100vh',
       }
     return (
-        <Fragment>
+        <div>
             {/* < Gstyle /> */}
             {/* < Speek /> */}
             <div style={Main_div} >
@@ -46,7 +45,7 @@ function Title() {
                 </div>
                     <h1 style={h1}>Bhopal Health Services</h1>
             </div>
-        </Fragment>
+        </div>
     )
 }
 

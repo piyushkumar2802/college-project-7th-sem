@@ -1,4 +1,4 @@
-import React, { Fragment , useState , useEffect } from 'react';
+import React, { useState , useEffect } from 'react';
 import Home from './Home';
 import Title from './Title';
 
@@ -12,14 +12,14 @@ function Website() {
         }, 5000);
     }, [])
     return (
-        <Fragment className="App">
+        <div>
             {
                 loading ?
                     < Title />
                     :
                     < Home />
             }
-        </Fragment>
+        </div>
     )
 }
 

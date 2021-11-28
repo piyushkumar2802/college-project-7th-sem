@@ -13,7 +13,7 @@ function Private() {
 
             {/* <!-- ====================About section======================== --> */}
             < Sprivate />
-            <div id="body" style={{ height: "auto !important" , paddigTop:"8%" }}>
+            <div id="body" style={{ height: "auto !important" }}>
                 <div class="container" style={{ height: "auto !important" }}>
                     <div class="row" style={{ height: "auto !important" }}>
                         <div class="m1" align="center">
@@ -21,7 +21,7 @@ function Private() {
                                 language="javascript"> medianet_width = "970"; medianet_height = "90"; medianet_crid = "834543454"; medianet_versionId = "3111299";</script>
                             <script src="//contextual.media.net/nmedianet.js?cid=8CU5P8N3J"></script>
                         </div>
-                        <div class="col-lg-12 col-md-12 col-sm-12" style={{ height: "auto !important", minHeight: "0px !important" }}>
+                        <div class="col-lg-12 col-md-12 col-sm-12" style={{ height: "auto !important", minHeight: "0px !important", paddingTop:"15%"}}>
                             <div class="lising-wrap" style={{ height: "auto !important" }}>
                                 <div class="title">
                                     <h1><i class="fa fa-th-list"></i>List of Private Hospital in Bhopal</h1>
