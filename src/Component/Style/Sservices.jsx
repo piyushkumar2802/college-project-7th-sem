@@ -55,7 +55,10 @@ const GlobleStyle = createGlobalStyle`
 
         @media (max-width: 991px) {
             .services-content-div {
-                margin-top: 10%;
+                margin-top: 18%;
+            }
+            .bodyWrapper{
+                margin-top: 30% !important;
             }
         }
 `;

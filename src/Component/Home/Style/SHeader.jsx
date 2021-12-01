@@ -348,12 +348,21 @@ div.borderYtoX a:hover:before, div.borderYtoX a:hover:after{
   line-height: 0;
   transition: 0.5s;
 }
+.mobile-component{
+  display:none;
+}
 
 .mobile-nav-toggle.bi-x {
   color: #fff;
 }
 
 @media (max-width: 991px) {
+  .mobile-component{
+    display:block;
+  }
+  .nomobile-component{
+    display:none;
+  }
   .mobile-nav-toggle {
     display: block;
   }
@@ -386,7 +395,7 @@ div.borderYtoX a:hover:before, div.borderYtoX a:hover:after{
   left: 15px;
   padding: 10px 0;
   border-radius: 10px;
-  background-color: rgb(102 206 194 / 60%);
+  background-color: rgb(102 206 194 / 80%);
   overflow-y: auto;
   transition: 0.3s;
 }

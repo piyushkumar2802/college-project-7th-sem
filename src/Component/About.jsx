@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Header from './Home/Header';
+import Sabout from './Style/Sabout';
 import Style from "./Home/Style/SHeader";
 import Footer from './Home/Footer';
 import Sfooter from './Home/Style/SFooter';
@@ -11,9 +12,8 @@ export default class About extends Component {
                 < Style />
                 < Header />
                 {/* About Section */}
-                <div className="wrapper bodyWrapper" style={{
-                    marginTop:"10%"
-                }}>
+                < Sabout />
+                <div className="wrapper bodyWrapper">
                     <div className="container ">
 
                         <div id="SkipContent" tabindex="-1"></div>

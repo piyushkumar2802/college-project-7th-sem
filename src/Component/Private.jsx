@@ -13,7 +13,7 @@ function Private() {
 
             {/* <!-- ====================About section======================== --> */}
             < Sprivate />
-            <div id="body" style={{ height: "auto !important" }}>
+            <div className="body" style={{ height: "auto !important" }}>
                 <div class="container" style={{ height: "auto !important" }}>
                     <div class="row" style={{ height: "auto !important" }}>
                         <div class="m1" align="center">

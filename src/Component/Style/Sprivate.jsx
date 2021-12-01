@@ -254,7 +254,7 @@ const GlobleStyle = createGlobalStyle`
             margin: 5px 0;
         }
 
-        #body {
+        .body {
             margin: 40px 0;
         }
 
@@ -564,11 +564,11 @@ const GlobleStyle = createGlobalStyle`
                 display: none;
             }
         }
-
+        
         .detail .label a {
             color: #fff;
         }
-
+        
         #headerdiv {
             align-items: center;
             justify-content: space-between;
@@ -580,5 +580,10 @@ const GlobleStyle = createGlobalStyle`
             margin-right: 25%;
             margin-left: inherit;
         }
-`;
+        @media (max-width: 480px) {
+            .body {
+            margin-top:25%;
+            }
+        }
+        `;
 export default GlobleStyle;

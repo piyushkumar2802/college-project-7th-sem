@@ -1,6 +1,6 @@
 import React from 'react'
 import { Fragment } from 'react';
-import AboutI from '../Image/services/services-9.jpg';
+import WPage from '../Image/Welcome.gif';
 
 function Content() {
   return (
@@ -13,7 +13,7 @@ function Content() {
             <div className="row gx-0" data-aos="fade-up">
 
               <div className="col-lg-6 d-flex align-items-center" data-aos="zoom-out" data-aos-delay="200">
-                <img src={AboutI} className="img-fluid" alt="" />
+                <img src={WPage} className="img-fluid" alt="loading" />
               </div>
 
 

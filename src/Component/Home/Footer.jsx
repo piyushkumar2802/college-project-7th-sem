@@ -1,5 +1,9 @@
 import React, { Fragment } from 'react';
 import ShereImg from "../Image/footer-image.png";
+import {
+    Link,
+    NavLink
+} from 'react-router-dom';
 // ./assets/img/footer-image.png"
 function Footer() {
     return (
@@ -12,27 +16,27 @@ function Footer() {
                         <div class="col-md-3">
                             <h1>Useful Links</h1>
                             <p>
-                                <a href="/">Home</a>
+                            <NavLink as={Link} exact to="/"><span>Home</span></NavLink>
                             </p>
 
                             <p>
-                                <a href="./component/About.html">About</a>
+                            <NavLink as={Link} exact to="/about"><span>About</span></NavLink>
                             </p>
 
                             <p>
-                                <a href="./component/services.html">Services</a>
+                            <NavLink as={Link} to="/services"><span>Services</span></NavLink>
                             </p>
 
                             <p>
-                                <a href="./component/Contact.html">Contact</a>
+                            <NavLink as={Link} to="/contact"><span>Contact</span></NavLink>
                             </p>
 
                             <p>
-                                <a href="./component/Govererment.html">Goverment</a>
+                            <NavLink as={Link} to="/goverment"><span>Goverment Hospitals</span></NavLink>
                             </p>
 
                             <p>
-                                <a href="./component/Private.html">Private</a>
+                            <NavLink as={Link} to="/private"><span>Private Hospitals</span></NavLink>
                             </p>
                         </div>
                         {/* <!-- footer col-2  section ------------------------------------------------------------------------------> */}
